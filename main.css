@@ -156,11 +156,9 @@ section{
     line-height: 2em;
 }
 
-.FSD{color:#FBF5BB;} .Devlang{color:#E399D9;} .per1{color:#CC97F9;} .per2{color:#9A9EF9;} .per3{color:#A4DeFe;}
-
 .mail-me{
     align-self: center;
-    background-color: #CAF0FE;
+    background-color: grey;
     width: 75%;
     height: 80px;
     color: black;
@@ -181,9 +179,6 @@ section{
 
 }
 
-.mail-me:hover{
-    background-color: #E5D8FE;
-}
 
 #My-Portfolio{
     display: flex;
@@ -191,7 +186,6 @@ section{
 }
 
 #My-Portfolio .portfolio-title{
-    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bolder;
     width: 50%;
     background-color: rgb(7, 25, 58);
@@ -353,22 +347,6 @@ section{
     top: 5px;
     }
 
-    .nav-active{
-        transform: translateX(0%);
-    }
-
-    .toggle .line1{
-        transform: rotate(-45deg) translate(-5px,6px);
-    }
-    
-    .toggle .line2{
-        opacity: 0;
-    }
-    
-    .toggle .line3{
-        transform: rotate(45deg) translate(-5px,-6px);
-    }
-
     #splash{
         display: flex;
         flex-direction: column;
@@ -478,8 +456,6 @@ section{
     #Contact-ME{
         flex-direction: column;
     }
-    #Contact-ME :nth-child(1) { order: 2; }
-    #Contact-ME :nth-child(2) { order: 1; }
     
     #Contact-ME .contact-deets{
         width: 100%;
